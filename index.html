@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  My Movies  | Listing movies   </title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="assets/images/IMDB_Logo_2016.svg.png" type="image/x-icon">
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+
+<body class="bg-black">
+    
+    <header>
+
+
+        <div class="logo">
+
+    <div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+            
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png"  
+                        width="100px" height="50px"; />  </a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+                      aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon">
+
+        </span>
+ </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       
+                       <!-- UL Tags  -->
+
+                            <!-- UL Tags  -->
+
+
+       <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"> Home</a>
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link" href="text.html"> TV Show</a>
+                          </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" 
+                       aria-expanded="false">
+                                  Movies
+                     </a>
+                 <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Adventure</a></li>
+                       <li>   <hr class="dropdown-divider">          </li>
+                       <li><a class="dropdown-item" href="#">Love</a></li>
+                       <li><a class="dropdown-item" href="#">Horror</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Web Series</a>
+                          </li>
+                        
+                        </ul>
+                        <form class="d-flex justify-content-center" role="search">
+                          <input class="formcontrolcustomize me-2 ms-4 mx-auto placeholder-text" type="search" placeholder="Search" 
+                          aria-label="Search">
+                          <button class="btn btn-secondary ms-2" type="submit"> Search </button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+
+                </header>
+                       <!-- UL Tags End  -->
+
+                            <!-- UL Tags  -->
+
+  <!-- Button end-->
+  <section>
+        
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" 
+                                                                   aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
+
+                                                                                                        </button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3">
+
+                                                                                               </button>
+      </div>
+
+    
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide h-50 overflow auto">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="8000">
+          <img src="./assets/images/slide1.avif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          
+               <div class="row align-items-start">
+                  <h1> Movies One </h1>
+                     <p>  Some representative placeholder content for the first slide.  </p>
+               </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./assets/images/slider2.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5> Movies two</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/slider3.avif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5> Movies Three</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" 
+      data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+       data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+
+</section>
+
+
+<div class="container  mt-5">
+
+      <div class="text-light ">
+                              
+          <div class="row">
+
+                    <div class="col-12 ">
+                        <h1>Top stories >> </h1>
+                    </div>                                   
+                    </div> 
+             
+                              
+
+            <div class="row">
+              <div class="col-md-4 col-sm-12 ">
+                <div class="card" >
+                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KqI5QTV6MnI?si=6btF4-9velmTp312" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Movie 1</h5>
+                  <p class="card-text"> Text </p>
+               
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="card" >
+                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KqI5QTV6MnI?si=6btF4-9velmTp312" 
+                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                 gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+              <div class="card-body">
+                <h5 class="card-title">Movie 2</h5>
+                <p class="card-text">Text</p>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="card" >
+               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KqI5QTV6MnI?si=6btF4-9velmTp312" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Movie 3</h5>
+              <p class="card-text">Text</p>
+           
+            </div>
+          </div>
+        </div>
+          </div>
+
+</div>
+
+</div>
+
+
+<div class="container  mt-5 ">
+
+<div class="row">
+  <div class="col-12 text-light">
+         <h3>Top Movies >></h3>
+    </div>
+    </div>
+    
+<div class="row">
+    <div class="col-3 text-light d-flex">
+       <div class="card">
+        <img src="./assets/images/card-image-1.avif">
+          
+        <div class="card-body">
+        
+        <h3>Top Series >></h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus aperiam eveniet quidem quisquam, 
+          veniam sed inventore. 
+          </p>
+          <a href="about.html" class="btn btn-secondary ms-1 "> Readmore </a>
+
+    </div>
+       </div>
+
+  </div>
+    
+ <!-- Card 2-->
+    <div class="col-3 text-light d-flex">
+      <div class="card">
+        <img src="./assets/images/card-image-2.avif" />
+        <div class="card-body">
+        <h3> Top Series >> </h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus aperiam eveniet quidem quisquam, 
+          veniam sed inventore. 
+           </p>
+           <a href="about.html" class="btn btn-secondary ms-1 "> Readmore </a>
+    </div>
+      </div>
+    </div>
+
+<!-- Card 3-->
+
+      <div class="col-3 text-light d-flex">
+        <div class="card">
+          <img src="./assets/images/card-image-3.avif">
+          <div class="card-body">
+           <h3> Top Series >> </h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus aperiam eveniet quidem quisquam, 
+            veniam sed inventore. 
+            </p>
+            <a href="about.html" class="btn btn-secondary ms-1 "> Readmore </a>
+          </div>
+      </div>
+
+
+  </div>
+
+  <div class="col-3 text-light">
+
+      <div class="card">
+
+          <img src="./assets/images/card-image-2.avif">
+
+         <div class="card-body">
+            <h3> Top Series 4 >> </h3>
+
+              <p> Lorem ipsum dolor sit amet consectetur adipisicingveniam sed inventore.  
+                met consectetur adipisicing elit. Exercitationem natus aperiam</p>
+
+                <a href="about.html" class="btn btn-secondary ms-1 "> Readmore </a>
+          </div>
+
+        </div>
+
+
+  </div>
+
+
+
+  </div>
+</div>
+
+
+<div class="container text-light mt-5 mb-5">
+  
+  
+  <div class="row">
+    <h1> Top Series >> </h1>
+
+  <div class="col-3">
+    <div class="card bg-black text-light">
+      <img src="./assets/images/card-image-2.avif"  />
+         <div class="card-body a-center">
+           <h3 class="card-title">  Movie Title  </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+
+              <a href="about.html"  class="btn btn-secondary text-right" >   Read More </a>
+           </div>
+      </div>
+    </div>
+    
+      <div class="col-3">
+          <div class="card bg-black text-light">
+              <img src="./assets/images/card-image-3.avif">
+
+          
+<div class="card-body">
+         <h3> Movie Title </h3>
+      
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    </p>
+  
+  <a href="about.html" class="btn btn-secondary"> Read More </a>
+
+          </div>
+      
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card bg-black text-light">
+          <img src="./assets/images/card-image-1.avif">
+            <div class="card-body">
+              <h4> Movie Title </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+
+                <a href="./about.html" class="btn btn-secondary"> Read More </a>
+            </div>
+        </div>
+      </div>
+      
+        <div class="col-3">
+            <div class="card bg-black text-light">
+               <img src="./assets/images/movie-poster-1.webp" height="380px" class="img-fuild">
+                  <div class="card-body">
+                    <h3>  Movie Title </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 </p>
+         <a href="about.html" class="btn btn-secondary">  Read More  </a>
+                </div>
+       </div> 
+      </div>
+
+    </div>
+  </div>
+
+    <div class="container">
+  
+      <div class="row mb-5" > 
+          <div class="text-light ">
+               <h1>  Trailer >> </h1>
+        </div> 
+        
+        <div class="col-6">
+            
+          <div class="bg-dark text-light d-flex mt-3 ">
+
+            <img src="./assets/images/trailer-poster-1.jpg" class="img-fuild" alt="latest-movie-trailer" width="200px"/>
+
+            <div class="p-3">
+              <h4>  Killers of the Moons </h4>
+
+            <p> 
+                <ul class="list-group">
+                  <li class="stylenone"> Release: Jan 2024  </li>
+                <li class="stylenone"> Director: Martin scorsque  </li>
+                  <li class="stylenone"> Genre: Action  </li>
+                  </ul> 
+               </p>
+                </div>     
+        </div>
+      </div>
+
+        
+
+      <div class="col-6">
+            <div class="bg-dark text-light d-flex mt-3">
+           <img src="./assets/images/trailer-poster-1.jpg" class="img-fuild" alt="latest-movie-trailer" width="200px"/>
+
+        <div class="p-3">
+          <h4>  Trailer  2 </h4>
+           <p> <ul class="list-group">
+            <li class="stylenone"> Release: Jan 2024  </li>
+          <li class="stylenone"> Director: Martin scorsque  </li>
+            <li class="stylenone"> Genre: Action  </li>
+            </ul> </p>
+            </div> 
+    </div>
+  </div>
+
+
+
+  <div class="col-6 text-light">
+    <div class="bg-dark text-light d-flex mt-3">
+        <img src="./assets/images/trailer-poster-1.jpg" width="200px" />
+
+        <div class="p-3">
+         <h4> Trailer 3 </h4>
+           <p> <ul class="list-group">
+            <li class="stylenone"> Release: Jan 2024  </li>
+          <li class="stylenone"> Director: Martin scorsque  </li>
+            <li class="stylenone"> Genre: Action  </li>
+            </ul> </p>
+          </div>
+
+    </div>
+  </div>
+
+     
+
+        <div class="col-6 text-light">
+
+            <div class="bg-dark d-flex  mt-3">
+                <img src="./assets/images/trailer-poster-1.jpg"  width="200px">
+            <div class="p-3">
+            <h4>  Trailer 4 </h4>
+            <p><ul class="list-group">
+              <li class="stylenone"> Release: Jan 2024  </li>
+            <li class="stylenone">  Director: Martin scorsque  </li>
+              <li class="stylenone"> Genre: Action  </li>
+              </ul> </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+      </div>
+       </div>
+
+       <div class="container">
+
+<div class="row">
+
+  <div class="text-light">
+  <h3>Indian Movies </h3>
+  
+  </div>
+        </div>
+       
+        <div class="row mb-5 " >
+
+          <div class="d-flex text-light">
+          
+          <div class="col-2 m-3 ">
+              <img src="./assets/images/movie-poster-3.jpg" width="200px">
+              <div>
+                  <h5>  After </h5>
+                </div>
+          
+       
+          </div>
+
+            <div class="col-2 m-3">
+              <img src="./assets/images/movie-poster-3.jpg" width="200px">
+              <div>
+                  <h5>  After </h5>
+                </div>
+          
+            </div>
+            <div class="col-2 m-3">
+              <img src="./assets/images/movie-poster-3.jpg" width="200px">
+              <div>
+                  <h5>  After </h5>
+                </div>
+          
+            </div>
+
+            <div class="col-2 m-3">
+              <img src="./assets/images/movie-poster-3.jpg" width="200px">
+              <div>
+                  <h5>  After </h5>
+                </div>
+          
+            </div>
+
+            <div class="col-2 m-3">
+              <img src="./assets/images/movie-poster-3.jpg" width="200px">
+              <div>
+                  <h5>  After </h5>
+                </div>
+          
+            </div>
+
+            <div class="col-2 m-3">
+              <img src="./assets/images/movie-poster-3.jpg" width="200px">
+              <div>
+                  <h5>  After </h5>
+                </div>
+          
+            </div>
+
+          </div>
+
+          </div>
+        
+        
+        </div>
+
+        
+        <div class="container">
+
+          <div class="row">
+          
+            <div class="text-light">
+            <h3> Animations </h3>
+            
+            </div>
+                  </div>
+                 
+                  <div class="row mb-5 " >
+          
+                    <div class="d-flex text-light">
+                    
+                    <div class="col-2 m-3 ">
+                        <img src="./assets/images/movie-poster-4.webp" width="200px">
+                        <div>
+                            <h5>  Dark </h5>
+                          </div>
+                    
+                 
+                    </div>
+          
+                      <div class="col-2 m-3">
+                        <img src="./assets/images/movie-poster-1.webp" width="200px">
+                        <div>
+                            <h5>  Dark </h5>
+                          </div>
+                    
+                      </div>
+                      <div class="col-2 m-3">
+                        <img src="./assets/images/movie-poster-4.webp" width="200px">
+                        <div>
+                            <h5>  Dark </h5>
+                          </div>
+                    
+                      </div>
+          
+                      <div class="col-2 m-3">
+                        <img src="./assets/images/movie-poster-5.webp" width="200px">
+                        <div>
+                            <h5>  Blade Runner </h5>
+                          </div>
+                    
+                      </div>
+          
+                      <div class="col-2 m-3">
+                        <img src="./assets/images/movie-poster-3.jpg" width="200px">
+                        <div>
+                            <h5>  After </h5>
+                          </div>
+                    
+                      </div>
+          
+                      <div class="col-2 m-3">
+                        <img src="./assets/images/movie-poster-3.jpg" width="200px">
+                        <div>
+                            <h5>  After </h5>
+                          </div>
+                    
+                      </div>
+          
+                    </div>
+          
+                    </div>
+                  
+                  
+                  </div>
+
+<section>
+                  <div class="container">
+
+                    <div class="row">
+
+                      <div class="text-light">
+
+                        <h3> Lives > </h3>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex">
+
+                      
+
+                      <div class="col-7">
+                        <img src="./assets/images/trailer-poster-1.jpg " width="100%" height="100%" class="img-fuild">
+                      </div>
+
+                      <div class="col-5">
+
+                        <div class="">
+
+                          <div class="bg-dark d-flex text-light mb-2">
+                            <img src="./assets/images/trailer-poster-1.jpg " width="50%">
+                             
+                            <div class="m-2">
+                                  <h6> John wick </h6>
+                                  <p> Trailer </p>
+                                    <a href="" class="btn btn-danger p-1 pl-2 pr-3"> Watch</a>
+
+                                </div>
+
+
+                                <div class="ms-5 ps-4 mt-2 text-align-right justify-content-right" >
+                                  <h6> ((Live)) </h6>
+                                  
+                                    <div class="mt-5">
+                                  <h6> 25k </h6>
+
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                              <div class="bg-dark d-flex text-light mb-2">
+                                  <img src="./assets/images/trailer-poster-1.jpg " width="50%">
+                              
+                                <div class="m-2">
+                                  <h6>john </h6>
+                                  <p>  Trailer  </p>  
+                                  <a href=""  class="btn btn-danger">  Watch </a>
+                                </div>
+
+                                <div class=" ms-5 ps-4 mt-2 text-align-right justify-content-right">
+                                  <h6> ((Live)) </h6>
+                                  
+                                  <div class="mt-5">
+                                      <h6> 25k </h6>
+                                    </div>
+
+                                </div>    
+                              
+                                </div >
+
+                                <div class="bg-dark d-flex text-light mb-2">
+                                  <img src="./assets/images/trailer-poster-1.jpg " width="50%">
+                              
+                                <div class="m-2">
+                                  <h6>john </h6>
+                                  <p>  Trailer  </p>  
+                                  <a href=""  class="btn btn-danger">  Watch </a>
+                                </div>
+
+                                <div class=" ms-5 ps-4 mt-2 text-align-right justify-content-right">
+                                  <h6> ((Live)) </h6>
+                                  
+                                  <div class="mt-5">
+                                      <h6> 25k </h6>
+                                    </div>
+
+                                </div>    
+                              
+                                </div >
+
+                          </div>    
+                          </div>
+
+                      </div>
+
+
+                      <div class="row">
+                        <div class="text-light  mt-5" >  
+                          <h3> Channels > </h3>
+
+                        </div>
+
+<div class="row">
+
+    <div class="col-12 d-flex m-2 p-2">
+      <div class="m-1">
+           <img src="./assets/images/trailer-poster-1.jpg " width="100%">     
+        </div>
+      <div class="m-1">
+          <img src="./assets/images/trailer-poster-1.jpg " width="100%">     
+        </div>
+      <div class="m-1">
+         <img src="./assets/images/trailer-poster-1.jpg " width="100%">    
+       </div>
+      <div class="m-1">
+         <img src="./assets/images/trailer-poster-1.jpg " width="100%">
+       </div>
+      </div>
+   
+
+      <div class="col-12 d-flex m-2 p-2">
+        <div class="m-1">
+        <img src="./assets/images/trailer-poster-1.jpg " width="100%">
+      </div>
+        <div class="m-1">
+        <img src="./assets/images/trailer-poster-1.jpg " width="100%"></div>
+        <div class="m-1">
+        <img src="./assets/images/trailer-poster-1.jpg " width="100%"> </div>
+        <div class="m-1"> 
+          <img src="./assets/images/trailer-poster-1.jpg " width="100%">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+                  <div class="container  mt-5 ">
+
+                    <div class="row">
+                      <div class="col-12 text-light">
+                             <h3>Blog ></h3>
+                        </div>
+                        </div>
+                        
+                    <div class="row">
+                        <div class="col-4 text-light d-flex">
+                           <div class="card">
+                            <img src="./assets/images/blog.jpg">
+                              
+                            <div class="card-body bg-dark text-light">
+                            
+                            <h4> Blog 1?</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                              Exercitationem natus aperiam eveniet quidem quisquam, 
+                              veniam sed inventore. 
+                              </p>
+                              
+                              <div class="d-flex">
+                              <a href="about.html" class="btn btn-secondary ms-1 "> Readmore </a>
+                             <p class="ms-auto text-align-center justify-content-center"> $ 633 </p>    
+                            </div>
+                        </div>
+                           </div>
+                    
+                      </div>
+                        
+                     <!-- Card 2-->
+                        <div class="col-4 text-light d-flex">
+                          <div class="card">
+                            <img src="./assets/images/blog2.jpg" />
+                            <div class="card-body bg-dark text-light">
+                            <h4> Blog 2?</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus aperiam eveniet quidem quisquam, 
+                              veniam sed inventore. 
+                               </p>
+                              
+                               
+                               <div class="d-flex">
+                                <a href="about.html" class="btn btn-secondary ms-1 "> Readmore </a>
+                                    <p class="text-align-center justify-content-center ms-auto align-items-start"> $ 633 </p>    
+                              </div>
+                        </div>
+                          </div>
+                        </div>
+                    
+                    <!-- Card 3-->
+                    
+                          <div class="col-4 text-light d-flex">
+                            <div class="card">
+                              <img src="./assets/images/blog3.jpg">
+                              <div class="card-body bg-dark text-light">
+                               <h4> Blog 3?</h4>
+                              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus aperiam eveniet quidem quisquam, 
+                                veniam sed inventore. 
+                                </p>
+                              
+                                <div class="d-flex">
+                                  <a href="about.html" class="btn btn-secondary ms-1 "> Readmore </a>
+                                 <p class="ms-auto text-align-center justify-content-center"> $ 633 </p>    
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+    <div> 
+
+      </div>
+
+
+      <div class="container">
+      
+        <div class="row mt-5 text-light position-relative">
+
+          <div class="col-4 mb-5">
+            <img src="./assets/images/banner1.png"   class="img-fuild"/>
+
+          </div>
+          
+          <div class="col-8 mb-5 mt-5 bg-dark text-align-center justify-content-center" >
+              <div class="m-5">
+            <h5> You can download latest movies from this app </h5>
+            <p>  We have prepared a very profession for better use of the platform on mobile phones. 
+              Which can give you poor user experience</p>
+              </div>
+              <div class="m-5">
+            <a href=""  class="btn btn-danger"> Playstore   </a>
+                        
+            <a href=""  class="btn btn-secondary"> Apple store   </a>
+                  </div>            
+            </div>
+
+        </div>
+  </div>     
+  
+
+  <div class="container-fluid py-5 bg-dark">
+   <div class="row  ms-auto   text-light d-flex">
+   
+      <div class="col-4 mt-3 ">
+          
+            <img src="./assets/images/IMDB_Logo_2016.svg.png" width="20%">
+            <p> Movies items Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                          
+               cum sint repudiandae modi alias recusandae consequuntur eum aliquam. </p>
+
+               <div class="social-icons">
+                <a href="#" class="text-light mr-3"> <i class="fab fa-facebook-f"></i> </a>
+                    <a href="#" class="text-light mr-3"><i class="fab fa-twitter"></i> </a>
+                    <a href="#" class="text-light mr-3"><i class="fab fa-instagram"></i> </a>
+                    <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i> </a>
+                </div>
+                
+        </div>
+        
+        <div class="col-2 d-flex">
+              <div class="">
+                  <h4>  Category</h4>
+                   <ul class="stylenone px-2">
+                    <li class="stylenone"> Live</li>
+                    <li class="stylenone"> Blog</li>
+                    <li > Buy Ticket</li>
+                    <li> Movies</li>
+                    </ul>
+                </div>
+        </div>
+
+        <div class="col-2 d-flex">
+          <div class="">
+          <h4>  Support</h4>
+          <ul class="stylenone px-2">
+                    <li class="stylenone"> Live</li>
+                    <li class="stylenone"> Blog</li>
+                    <li > Buy Ticket</li>
+                    <li> FaQ</li>
+                    </ul>
+                  </div>
+        </div>
+
+
+        <div class="col-4">
+          <h4>  Subscription</h4>
+
+          <p> Movies items Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            cum sint repudiandae modi alias recusandae consequuntur eum aliquam. </p>
+
+            <div class="text-light">
+              <form class="py-2 ms-4 d-flex justify-content-center">
+              <input placeholder=" Enter your email"  class="pt-0.5 pb-2"name="Subscription"  />
+             
+               <button class="btn btn-secondary "> Submit</button>
+              </form>
+              </div>
+        
+
+        </div>
+
+        
+    
+      </div>
+
+   
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
